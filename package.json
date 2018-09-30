@@ -1,0 +1,19 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "download": "^7.1.0",
+    "fs": "0.0.1-security",
+    "ocr-space-api": "^1.0.1",
+    "path": "^0.12.7",
+    "puppeteer": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
