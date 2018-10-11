@@ -5,14 +5,21 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.18.0",
+    "baidu-aip-sdk": "^2.3.3",
+    "base32": "0.0.6",
     "download": "^7.1.0",
     "fs": "0.0.1-security",
+    "jimp": "^0.5.3",
     "ocr-space-api": "^1.0.1",
     "path": "^0.12.7",
-    "puppeteer": "^1.7.0"
+    "puppeteer": "^1.7.0",
+    "qrcode-reader": "^1.0.4",
+    "restler": "https://github.com/lishude/restler/tarball/master",
+    "speakeasy": "^2.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index.js",
+    "test": "node test.js"
   },
   "author": "",
   "license": "ISC"
